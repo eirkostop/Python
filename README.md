@@ -1,6 +1,6 @@
 # Python Simple Exercises
 ### Ladder
-Create a program which asks the user for the number of floors and prints a ladder of * of equal floors. For example for floors = 5 it prints:
+Create a program which asks the user for the number of floors and prints a ladder of * of equal floors. For example for `floors = 5` it prints:
 ```
 *
 **
@@ -9,7 +9,7 @@ Create a program which asks the user for the number of floors and prints a ladde
 *****
 ```
 ### Pyramid
-Create a program which asks the user for the number of floors and prints a symmetrical pyramid f * of equal floors. For examples for floors = 4 it prints:   
+Create a program which asks the user for the number of floors and prints a symmetrical pyramid f * of equal floors. For example for `floors = 4` it prints:   
 ```
    *
   ***
