@@ -24,10 +24,10 @@ Create the function **fibonacci(n)** which returns the n'th [fibonacci number](h
 Create the procedure **FizzBuzz(n)** which prints the numbers 1 to n or Fizz if the number is a multiple of 3, Buzz if the number is a multiple of 5, or FizzBuzz if the number is a multiple of both 3 and 5.
 ### Custom Range
 Create the function **custom_range(start, end, step)** which returns a list containing numbers in the range [start, end) and increase by step in each iteration.
-## Larger than Sum
-Create the function **larger_than_sum(L)** which returns True if for every item of list L it holds that L[i] > sum(L[i+1] + L[i+2] + ... + L[len(L)-1]]) or False otherwise.
+### Larger than Sum
+Create the function **larger_than_sum(L)** which returns True if for every item of list L it holds that `L[i] > sum(L[i+1] + L[i+2] + ... + L[len(L)-1]])` or False otherwise.
 ### Palindrome
-Create the function **isPalindrome(L)** which returns True if the list L is symmetrical or False otherwise. That is, L[0] == L[len(L)-1], L[1] == L[len(L)-2] etc.
+Create the function **isPalindrome(L)** which returns True if the list L is symmetrical or False otherwise. That is, `L[0] == L[len(L)-1], L[1] == L[len(L)-2]` etc.
 ### Rock - Scissors - Paper Person vs Computer
 Create a game for one player. Player chooses between rock / scissors / paper and the same isdone by the computer in a random way. If someone wins the round he gets 1 point. The game is finished when someone gets 3 points.
 ### Hangman Player vs Computer
