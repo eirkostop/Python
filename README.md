@@ -1,4 +1,4 @@
-#Python Simple Exercises
+# Python Simple Exercises
 ### Ladder
 Create a program which asks the user for the number of floors and prints a ladder of * of equal floors. For example for floors = 5 it prints:
 ```
