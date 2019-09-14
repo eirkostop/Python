@@ -14,7 +14,8 @@ def larger_than_sum_2(L):
             return False
     return True
 
-# Example
-L = [100, 50, 40, 5, 1]
-result = larger_than_sum(L)
-print(result)
+# Examples
+L1 = [100, 50, 40, 5, 1]
+L2 = [10, 50, 40, 5, 1]
+print(larger_than_sum(L1))
+print(larger_than_sum(L2))

@@ -3,15 +3,17 @@ def fibonacci(n):
         print("Incorrect input") 
     elif n <= 1:
         return n
+    second_last = 0
     last = 1
-    current = 1
-    for i in range(2, n):
-        temp = current + last
-        last = current
-        current = temp
-    return temp
+    index=1
+    while index<n:
+        current = second_last + last
+        second_last = last
+        last=current
+        index+=1
+    return current
 
-# Alternatively, with recursion
+# Using recursion
 def fibonacci_rec(n):
     if n<0: 
         print("Incorrect input") 
@@ -22,3 +24,4 @@ def fibonacci_rec(n):
     
 # Example for n=9, Fn=34
 print(fibonacci(9))
+
