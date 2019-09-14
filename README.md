@@ -19,11 +19,13 @@ Create a program which asks the user for the number of floors and prints a symme
 ### Factorial
 Create the function **factorial(n)** which calculates the factorial of the number n.
 ### Fibonacci
-Create the function **fibonacci(n)** which returns the n'th fibonacci number.
+Create the function **fibonacci(n)** which returns the n'th [fibonacci number](https://en.wikipedia.org/wiki/Fibonacci_number).
 ### FizzBuzz
-Create the procedure **FizzBuzz(n)** which prints the numbers [1 - n] or Fizz if the number is a multiple of 3, Buzz if the number is a multiple of 5, or FizzBuzz if the number is a multiple of both3 and 5.
+Create the procedure **FizzBuzz(n)** which prints the numbers 1 to n or Fizz if the number is a multiple of 3, Buzz if the number is a multiple of 5, or FizzBuzz if the number is a multiple of both 3 and 5.
 ### Custom Range
-Create the function **custom_range(start, end, step)** which returns a list containing numbers in the range [start, end) and increase by step in each iteration.Larger than SumCreate the function larger_than_sum(L) which returns True if for every item of list L it holds thatL[i] > sum(L[i+1] + L[i+2] + ... + L[len(L)-1]]) or False otherwise.
+Create the function **custom_range(start, end, step)** which returns a list containing numbers in the range [start, end) and increase by step in each iteration.
+## Larger than Sum
+Create the function **larger_than_sum(L)** which returns True if for every item of list L it holds that L[i] > sum(L[i+1] + L[i+2] + ... + L[len(L)-1]]) or False otherwise.
 ### Palindrome
 Create the function **isPalindrome(L)** which returns True if the list L is symmetrical or False otherwise. That is, L[0] == L[len(L)-1], L[1] == L[len(L)-2] etc.
 ### Rock - Scissors - Paper Person vs Computer
