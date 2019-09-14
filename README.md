@@ -17,7 +17,7 @@ Create a program which asks the user for the number of floors and prints a symme
 *******
 ```
 ### Factorial
-Create the function **factorial(n)** which calculates the factorial of the number n.
+Create the function **factorial(n)** which calculates the [factorial](https://en.wikipedia.org/wiki/Factorial) of the number n.
 ### Fibonacci
 Create the function **fibonacci(n)** which returns the n'th [fibonacci number](https://en.wikipedia.org/wiki/Fibonacci_number).
 ### FizzBuzz
