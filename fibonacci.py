@@ -28,7 +28,7 @@ def fibonacci_rec(n):
 # Example for n=9, Fn=34
 
 try:
-    print(fibonacci(-9))
+    print(fibonacci(9))
     pass
 except ValueError as ve:
     print(ve)
